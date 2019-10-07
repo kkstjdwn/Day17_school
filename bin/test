@@ -1,0 +1,3 @@
+select * from point p inner join MEMBER m
+on(p.num = m.num)
+where m.id ='power' and m.pw = 'vam'
